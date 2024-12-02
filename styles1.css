@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 5;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightblue;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  border: 2px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: blueviolet;
+  border-radius: 10px;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: blueviolet;
+  border-radius: 10px;
+  color: white;
+}
+
+.topnav a.split  {
+    float: right;
+    background-color: #04AA6D;
+    border-radius: 10px;
+    color: white;
+}
+
+
+#myImg {
+    float:right;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 0%;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+
+section {
+  padding: 40px 20px;
+  margin: 20px 0;
+}
+
+h1{
+  
+  font-size: 60px;
+  margin-top: 100px;
+  
+  margin-right: 150px;
+  margin-left: 100px;
+}
+
+p{
+  font-size: 20px;
+  margin-top:30px;
+  margin-left:100px;
+}
+
+
+h2{
+  
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 300px;
+  margin-left:600px;
+}
+
+h3{
+  color:blueviolet;
+  font-size: 30px;
+  margin-right: 300px;
+  margin-left:100px;
+  margin-bottom: 40px;
+  
+}
+
+.abc{
+  font-size: 20px;
+  margin-top:0px;
+  margin-left:100px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 35% 35% 35% ;
+  margin-top:20px;
+}
+
+#smallimg {
+    margin-top:10px;
+    
+    
+}
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 35% 35% 35%;
+  grid-template-rows:100px 100px 100px 100px 100px 100px 100px 100px 100px 30px;
+  margin-top:30px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 45% 40% 40% ;
+  grid-template-rows:100px 100px 100px 100px ;
+  margin-top:20px;
+}
+
+
+/* 
+  CONTACT FORM EXAMPLE FOR FORMCARRY
+
+  IMPORTANT NOTE:
+  PLEASE ADD formcarry-form class to your form element
+  to apply the styles.
+*/
+
+.formcarry-container * {
+  box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+    margin-left: 0px;
+
+  /* colors */
+  --color-blue: #2552d0;
+  --color-light-blue: #3266e3;
+  --color-gray: #e5e7eb;
+  --color-dark-gray: #9da3ae;
+  --color-pink: #edadd2;
+}
+
+.formcarry-container {
+  /* container */
+  --c-width: 50%;
+  --c-max-width: 500px;
+
+  width: var(--c-width);
+  max-width: var(--c-max-width);
+  display: block;
+  margin: 50px;
+  margin-left: 480px;
+}
+
+.formcarry-form label {
+  display: block;
+  padding: 12px 0 2px 0;
+  letter-spacing: -0.2px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.formcarry-form input,
+.formcarry-form textarea {
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: var(--color-gray);
+  border: none;
+  border: 4px solid var(--color-gray);
+  outline: none;
+  border-radius: 8px;
+  color: var(--color-dark-gray);
+}
+
+.formcarry-form input:focus,
+.formcarry-form textarea:focus {
+  background-color: #fff;
+  color: var(--color-dark-gray);
+}
+
+.formcarry-form input:focus:required:invalid {
+  border-color: var(--color-pink);
+  background-color: #fff;
+}
+
+.formcarry-form button {
+  display: block;
+  margin-top: 12px;
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 8px;
+	border-color: transparent;
+  background-color: var(--color-blue);
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+
+  transition: 300ms all;
+}
+
+.formcarry-form button:hover {
+  background-color: var(--color-light-blue);
+}
+
+.formcarry-alert {
+  padding: 12px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 12px;
+  display: none;
+}
+
+.formcarry-alert.visible {
+  display: block;
+}
+
+.formcarry-alert.success {
+  background: #69cf9d;
+}
+
+.formcarry-alert.error {
+  background: #de524c;
+}
+
+.contact-head{
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 300px;
+  margin-left:700px;
+
+}
+
+.contact-sidehead{
+  color:blueviolet;
+  font-size: 30px;
+  margin-right: 300px;
+  margin-left:100px;
+  margin-bottom:0px;
+
+}
+
+#contact-paragraph{
+  
+  font-size: 20px;
+  margin-top:30px;
+  margin-left:100px;
+  margin-bottom: 0px;
+  
+}
+
+.smallbody { 
+  font-family: Arial, sans-serif; 
+  text-align: center; 
+  padding: 10px; 
+} 
+        
+
+.bottom{
+  margin-left: 600px;
+}
+
+        
+
+
